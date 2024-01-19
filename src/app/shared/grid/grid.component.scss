@@ -1,0 +1,67 @@
+.title{
+    color: #3a74b6;
+    font-weight: bolder;
+}
+
+.add {
+    color: rgb(55, 0, 255);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.update {
+    color: rgb(101, 189, 189);
+    cursor: pointer;
+}
+
+.delete {
+    color: rgb(146, 74, 74);
+    cursor: pointer;
+}
+
+.message {
+    color: rgb(23, 24, 24);
+    cursor: pointer;
+}
+
+/* Structure */
+.example-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+  }
+  
+  .example-header {
+    min-height: 64px;
+    padding: 8px 24px 0;
+  }
+  
+  
+  
+  mat-cell{
+    display:flex !important;
+    justify-content:center!important;
+    
+  }
+  
+  mat-header-cell {
+    display:flex;
+    justify-content:center;
+  }
+  
+  .data-table {
+    /* Estilos para a tabela */
+    width: 100%;
+    /* Adicione outros estilos conforme necessário */
+  
+    /* Certifique-se de ajustar o z-index para garantir que o spinner esteja acima da tabela quando visível */
+    z-index: 1;
+  }
+  
+  .spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Certifique-se de que o spinner esteja acima da tabela quando visível */
+  }
